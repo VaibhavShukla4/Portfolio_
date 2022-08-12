@@ -11,6 +11,7 @@ const Portfolio = () => {
     {
       id: 1,
       src: movie,
+      
     },
     {
       id: 2,

@@ -11,7 +11,7 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
         <div className="w-6/12 sm:w-4/12 px-4 ">
           <h2 className="text-4xl sm:text-7xl font-bold text-white ">
-            Hi i'm a Frontend Developer
+            Hi i'm a <span className="text-cyan-500">React Js</span> Developer
           </h2>
           <p className="text-pink-300 py-4 max-w-md ">
             Currently, I love to work on web application using technologies like
