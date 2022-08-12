@@ -1,10 +1,10 @@
 import React from 'react'
-import javascript from "../assets/javascript.jpg";
+import javascri from "../assets/javascri.jpg";
 import html from "../assets/html.jpg";
 import css from "../assets/css.jpg";
 import react from "../assets/react.jpg";
 import tailwind from "../assets/tailwind.jpg";
-import mongo from "../assets/mongo.jpg";
+import mongo2 from "../assets/mongo2.jpg";
 import node from "../assets/node.jpg";
 import express from "../assets/express.jpg";
 const Experiance = () => {
@@ -13,9 +13,9 @@ const Experiance = () => {
     const experiance=[
         {
             id:1,
-            src:javascript,
+            src:javascri,
             text:"JavaScript",
-            style:"shadow-yellow-500"
+            style:"shadow-yellow-300"
         },
         {
             id:2,
@@ -33,17 +33,17 @@ const Experiance = () => {
             id:4,
             src:react,
             text:"React Js",
-            style:"shadow-blue-600"
+            style:"shadow-cyan-500"
         },
         {
             id:5,
             src:tailwind,
             text:"Tailwind",
-            style:"shadow-cyan-500"
+            style:"shadow-teal-400"
         },
         {
             id:6,
-            src:mongo,
+            src:mongo2,
             text: "MongoDB",
             style:"shadow-green-600"
         },
@@ -51,20 +51,20 @@ const Experiance = () => {
             id:7,
             src:node,
             text:"Node Js",
-            style:"shadow-green-400"
+            style:"shadow-lime-500"
         },
         {
             id:8,
             src:express,
             text:"Express Js",
-            style:"shadow-green-400"
+            style:"shadow-black"
         },
     ]
   return (
-    <div name="experiance" className='bg-gradient-to-b   to-indigo-500 from-black w-full  text-white md:h-screen'>
+    <div name="experiance" className='bg-gradient-to-b   to-indigo-800 from-black w-full  text-white md:h-screen'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full  text-white'>
             <div>
-                <p className='text-4xl font-bold inline border-b-4 border-indigo-500'>Experiance</p>
+                <p className='text-4xl font-bold inline border-b-4 border-indigo-500 p-2'>Experiance</p>
                 <p className='py-6'>Thease are the technologies I've worked with</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center  py-8 px-12 sm:px-0'>
