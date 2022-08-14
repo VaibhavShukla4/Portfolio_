@@ -35,7 +35,7 @@ const Home = () => {
           src={vaibhav}
           alt="my-profile"
           className="rounded-full mx-auto md:w-full"
-          style={{ height: "25rem", width: "25rem" }}
+          style={{ height: "22rem", width: "22rem" }}
         />
       </div>
     </div>

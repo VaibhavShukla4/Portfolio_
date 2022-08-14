@@ -44,7 +44,7 @@ const SocialLinks = () => {
                    Resume <ImProfile size={30} className="bg-fuchsia-500"/> 
                 </>
             ),
-            href:"/resume.pdf",
+            href:"/resume1.pdf",
             style:"rounded-br-md",
             download:true,
         },
